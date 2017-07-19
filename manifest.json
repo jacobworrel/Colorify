@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Click to execute",
-  "description": "Execute script after click in popup.html (chrome extension) http://stackoverflow.com/questions/20764517/execute-script-after-click-in-popup-html-chrome-extension.",
+  "name": "Colorify",
+  "description": "A web design tool to test out different color palettes in the browser.",
   "version": "1.0",
 
   "icons": {
@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["break.js", "popup.js"]
+      "js": ["popup.js"]
     }
   ]
 }
